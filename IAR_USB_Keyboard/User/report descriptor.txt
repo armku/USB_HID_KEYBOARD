@@ -1,0 +1,89 @@
+
+鼠标报告描述符
+const uint8_t Joystick_ReportDescriptor[JOYSTICK_SIZ_REPORT_DESC] =
+  {
+    0x05,          /*Usage Page(Generic Desktop)*/
+    0x01,
+    0x09,          /*Usage(Mouse)*/
+    0x02,
+    0xA1,          /*Collection(Logical)*/
+    0x01,
+    0x09,          /*Usage(Pointer)*/
+    0x01,
+    /* 8 */
+    0xA1,          /*Collection(Linked)*/
+    0x00,
+    0x05,          /*Usage Page(Buttons)*/
+    0x09,
+    0x19,          /*Usage Minimum(1)*///     USAGE_MINIMUM (Button 1)
+    0x01,
+    0x29,          /*Usage Maximum(3)*/ //使用最大值3。1表示左键，2表示右键，3表示中键
+    0x03,
+    /* 16 */
+    0x15,          /*Logical Minimum(0)*/
+    0x00,
+    0x25,          /*Logical Maximum(1)*/
+    0x01,
+    0x95,          /*Report Count(3)*/
+    0x03,
+    0x75,          /*Report Size(1)*///大小为1bit
+    0x01,             //以上3个bit分别表示鼠标的三个按键情况，最低位（bit-0）为左键，
+    /* 24 */         ///bit-1为右键，bit-2为中键，按下时对应的位值为1，释放时对应的值为0
+    0x81,          /*Input(Variable)*/
+    0x02,
+    0x95,          /*Report Count(1)*/ //填充5个bit，补足一个字节
+    0x01,
+    0x75,          /*Report Size(5)*/
+    0x05,
+    0x81,          /*Input(Constant,Array)*/
+    0x01,
+    /* 32 */
+    0x05,          /*Usage Page(Generic Desktop)*///用途页为通用桌面
+    0x01,
+    0x09,          /*Usage(X axis)*/
+    0x30,
+    0x09,          /*Usage(Y axis)*/
+    0x31,
+    0x09,          /*Usage(Wheel)*/
+    0x38,
+    /* 40 */
+    0x15,          /*Logical Minimum(-127)*/
+    0x81,
+    0x25,          /*Logical Maximum(127)*/
+    0x7F,
+    0x75,          /*Report Size(8)*/
+    0x08,
+    0x95,          /*Report Count(3)*///数量为3个，即分别代表x,y,滚轮
+    0x03,
+    /* 48 */
+    0x81,          /*Input(Variable, Relative)*/
+    0x06,
+    0xC0,          /*End Collection*/
+    0x09,                  /*Usage(Motion Wakeup )*/
+    0x3c,
+    0x05,                  //     USAGE_PAGE??????????
+    0xff,
+    0x09,                  /*Usage(Pointer)*/   
+    /* 56 */
+    0x01,
+    0x15,                  //逻辑最小值0
+    0x00,
+    0x25,                   //逻辑最大值1   
+    0x01,
+    0x75,                   //大小为1bit
+    0x01,
+    0x95,                   //     REPORT_COUNT (2)  
+    /* 64 */
+    0x02,
+    0xb1,
+    0x22,
+    0x75,                   //     REPORT_SIZE (6)
+    0x06,
+    0x95,                   //     REPORT_COUNT (2) 
+    0x01,
+    0xb1,
+    /* 72 */
+    0x01,
+    0xc0
+  }
+  ;

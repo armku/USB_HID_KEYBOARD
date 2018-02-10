@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>965</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>723</ColumnWidth1><ColumnWidth2>193</ColumnWidth2><ColumnWidth3>48</ColumnWidth3><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>385</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <PreferedWindows>
+          <Position>2</Position>
+          <ScreenPosX>0</ScreenPosX>
+          <ScreenPosY>0</ScreenPosY>
+          <Windows/>
+        </PreferedWindows>
+        <MixedMode>1</MixedMode>
+        <CodeCovShow>0</CodeCovShow>
+        <InstrProfShow>0</InstrProfShow>
+      </Disassembly>
+    <Watch><Format><struct_types/><watch_formats/></Format><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Watch><Locals><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Locals><QuickWatch><PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></QuickWatch><StaticWatch><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></StaticWatch></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-18938-21911</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>USB_Keyboard</ExpandedNode><ExpandedNode>USB_Keyboard/USER</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd2><Tabs><Tab><Identity>TabID-30824-5524</Identity><TabName>Live Watch</TabName><Factory>StaticWatch</Factory><Session><Expressions><Expression><Expression>UID_CARD</Expression></Expression><Expression><Expression>UID</Expression></Expression><Expression><Expression>packetFlag</Expression></Expression><Expression><Expression>packbagNub</Expression></Expression><Expression><Expression>USBsendBuffer</Expression></Expression><Expression><Expression>time</Expression></Expression><Expression><Expression>packetFlag</Expression></Expression><Expression><Expression>packbagNub</Expression></Expression><Expression><Expression>Vale</Expression></Expression><Expression><Expression>Shift_Flag</Expression></Expression></Expressions><TabId>1</TabId><Column0>100</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-15265-18006</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\User\hw_config.c</Filename><XPos>0</XPos><YPos>88</YPos><SelStart>3771</SelStart><SelEnd>3771</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\User\FM1702.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\User\Keyboard.c</Filename><XPos>0</XPos><YPos>438</YPos><SelStart>7082</SelStart><SelEnd>7082</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\User\hw_config.h</Filename><XPos>0</XPos><YPos>66</YPos><SelStart>3296</SelStart><SelEnd>3296</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\User\main.c</Filename><XPos>0</XPos><YPos>36</YPos><SelStart>2056</SelStart><SelEnd>2056</SelEnd></Tab><ActiveTab>4</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\User\stm32f10x_it.c</Filename><XPos>0</XPos><YPos>30</YPos><SelStart>2217</SelStart><SelEnd>2217</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\User\platform_config.h</Filename><XPos>0</XPos><YPos>12</YPos><SelStart>1641</SelStart><SelEnd>1641</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\Libraries\USBLib\usb_regs.c</Filename><XPos>0</XPos><YPos>222</YPos><SelStart>9009</SelStart><SelEnd>9009</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\Libraries\USBLib\usb_init.c</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\Libraries\USBLib\usb_int.c</Filename><XPos>0</XPos><YPos>39</YPos><SelStart>3033</SelStart><SelEnd>3033</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\Libraries\USBLib\usb_core.c</Filename><XPos>0</XPos><YPos>87</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\User\usb_desc.c</Filename><XPos>0</XPos><YPos>114</YPos><SelStart>7049</SelStart><SelEnd>7049</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files\IAR Systems\Embedded Workbench 5.4\arm\inc\DLib_Config_Normal.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x9879;&#x76ee;\&#x9632;&#x7206;&#x8BA1;&#x7B97;&#x673A;USB&#x952e;&#x76D8;\&#x6e90;&#x4ee3;&#x7801;\IAR_USB_Keyboard\User\stm32f10x_conf.h</Filename><XPos>0</XPos><YPos>15</YPos><SelStart>1600</SelStart><SelEnd>1600</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00b09998><key>iaridepm.enu1</key></Toolbar-00b09998></Sizes></Row0><Row1><Sizes><Toolbar-0437d350><key>debuggergui.enu1</key></Toolbar-0437d350></Sizes></Row1></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>654</Bottom><Right>459</Right><x>-2</x><y>-2</y><xscreen>1742</xscreen><yscreen>1092</yscreen><sizeHorzCX>907292</sizeHorzCX><sizeHorzCY>1087649</sizeHorzCY><sizeVertCX>240104</sizeVertCX><sizeVertCY>653386</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>654</Bottom><Right>539</Right><x>-2</x><y>-2</y><xscreen>426</xscreen><yscreen>279</yscreen><sizeHorzCX>221875</sizeHorzCX><sizeHorzCY>277888</sizeHorzCY><sizeVertCX>281771</sizeVertCX><sizeVertCY>653386</sizeVertCY></Rect></Wnd2></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>281</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>283</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>281873</sizeHorzCY><sizeVertCX>212500</sizeVertCX><sizeVertCY>281873</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
